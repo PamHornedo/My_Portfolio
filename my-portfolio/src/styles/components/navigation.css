@@ -1,6 +1,7 @@
 :root {
-  --background-color: #d1d0d0;
-  --text-color: #000000;
+  --main-color: #d1d0d0;
+  --text-color-one: #000000;
+  --text-color-two: #ffffff;
   --accent-color-one: #988986;
   --accent-color-two: #5c4e4e;
 }
@@ -9,14 +10,15 @@
   background-color: var(--accent-color-two);
   padding: 10px 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
 }
 
 .nav-links {
+  background-color: var(--accent-color-two);
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 5px;
   display: flex;
 }
 
@@ -25,12 +27,17 @@
 }
 
 .nav-links a {
-  color: var(--text-color);
+  background-color: var(--accent-color-two);
+  color: var(--main-color);
   text-decoration: none;
-  font-size: 18px;
+  padding: 5px;
+  border: solid 2px;
+  border-radius: 5px;
+  font-size: 20px;
   transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
   background-color: var(--accent-color-one);
+  color: var(--text-color);
 }
