@@ -1,0 +1,36 @@
+:root {
+  --background-color: #d1d0d0;
+  --text-color: #000000;
+  --accent-color-one: #988986;
+  --accent-color-two: #5c4e4e;
+}
+
+.navbar {
+  background-color: var(--accent-color-two);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: var(--accent-color-one);
+}
