@@ -18,6 +18,46 @@ h1 {
   color: var(--main-color);
 }
 
+h2 {
+  padding: 10px;
+  color: var(--accent-color-two);
+  font-size: 36px;
+}
+
 #image {
   max-height: 300px;
+  border: solid 5px var(--accent-color-two);
+  border-radius: 15px;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  padding: 10px;
+  margin: 10px;
+}
+
+.page-links {
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+  font-size: 18px;
+  color: var(--accent-color-two);
+}
+
+#contact-card,
+#portfolio-card {
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--accent-color-two);
 }
