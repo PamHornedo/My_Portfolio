@@ -18,6 +18,9 @@ function Portfolio() {
               across different projects. You can add as many lists and tasks as
               you need, giving you flexible control over your workflow.
             </p>
+            <p className="project-desc">
+              <b>Technologies used:</b> HTML, CSS, Javascript, Bootstrap
+            </p>
             <div className="page-links2">
               <a id="github" href="https://pamhornedo.github.io/Ta-da_List/">
                 View Project
@@ -31,13 +34,13 @@ function Portfolio() {
             <img id="image2" src="./src/images/Project2.png" alt="Project 2" />
             <h3 className="project-title">Project 2</h3>
             <p className="project-desc">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-                explicabo fugiat eius est consequatur? Unde, quasi aut
-                necessitatibus architecto optio voluptatum, sequi veniam
-                veritatis voluptatibus suscipit cupiditate rem, deleniti
-                eveniet!
-              </p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              explicabo fugiat eius est consequatur? Unde, quasi aut
+              necessitatibus architecto optio voluptatum, sequi veniam veritatis
+              voluptatibus suscipit cupiditate rem, deleniti eveniet!
+            </p>
+            <p className="project-desc">
+              <b>Technologies used:</b> HTML, CSS, Javascript, Bootstrap
             </p>
             <div className="page-links2">
               <a id="github" href="">
