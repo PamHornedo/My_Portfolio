@@ -10,7 +10,6 @@
   margin: 0;
   padding: 0;
   background-color: var(--main-color);
-  color: var(--text-color-one);
 }
 
 h1 {
@@ -24,15 +23,39 @@ h2 {
   font-size: 36px;
 }
 
-#image {
+h3 {
+  color: var(--accent-color-two);
+  font-size: 25px;
+}
+
+#image,
+#image2 {
   max-height: 300px;
   border: solid 5px var(--accent-color-two);
   border-radius: 15px;
 }
 
+.page-container {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 25px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .page-content {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .content-cards {
@@ -55,9 +78,30 @@ p {
   color: var(--accent-color-two);
 }
 
-#contact-card,
-#portfolio-card {
+a {
+  padding: 10px;
+  border-radius: 5px;
   text-decoration: none;
   font-size: 20px;
-  color: var(--accent-color-two);
+  color: var(--main-color);
+  background-color: var(--accent-color-two);
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#tada {
+  display: flex;
+  padding: 20px;
+  margin: 10px;
+  max-width: 50%;
+}
+
+.project-desc {
+  padding: 10px;
+  padding-bottom: 10px;
+  margin: 10px;
 }
