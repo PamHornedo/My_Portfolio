@@ -1,5 +1,11 @@
 function Contact() {
-  return <h2>Contact Page</h2>;
+  return (
+    <div className="page-container">
+      <div className="page-container2">
+        <h2>Contact Me!</h2>
+      </div>
+    </div>
+  );
 }
 
-export default Contact
+export default Contact;

@@ -10,6 +10,7 @@ function Portfolio() {
               src="./src/images/TaDaList.png"
               alt="Ta Da List Project"
             />
+            <h3 className="project-title">Ta-Da List</h3>
             <p className="project-desc">
               Ta-Da List is an interactive web application built with the
               Bootstrap CSS framework. It allows you to create and manage
@@ -28,6 +29,7 @@ function Portfolio() {
           </div>
           <div id="project2">
             <img id="image2" src="./src/images/Project2.png" alt="Project 2" />
+            <h3 className="project-title">Project 2</h3>
             <p className="project-desc">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
