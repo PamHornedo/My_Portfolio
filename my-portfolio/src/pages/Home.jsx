@@ -26,7 +26,7 @@ function Home() {
               </p>{" "}
               <br />
             </div>
-            <div className="page-links2">
+            <div className="page-links">
               <div className="card" id="contact-card">
                 <Link to="/contact">Contact Me</Link>
               </div>
