@@ -16,12 +16,8 @@ function ProjectCard({
         <b>Technologies used:</b> {technologies}
       </p>
       <div className="page-links2">
-        <a id="github" href={liveUrl}>
-          View Project
-        </a>
-        <a id="repo" href={githubUrl}>
-          View Github Repository
-        </a>
+        <a href={liveUrl}>View Project</a>
+        <a href={githubUrl}>View Github Repository</a>
       </div>
     </div>
   );

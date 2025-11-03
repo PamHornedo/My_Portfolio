@@ -49,6 +49,11 @@ h3 {
   align-items: center;
 }
 
+.page-content {
+  display: flex;
+  flex-direction: row;
+}
+
 .content-cards {
   display: flex;
   flex-direction: column;
