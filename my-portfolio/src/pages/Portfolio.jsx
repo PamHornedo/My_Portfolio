@@ -1,7 +1,7 @@
 import { projects } from "../data/projects";
 import ProjectCard from "../components/Portfolio/ProjectCard";
 import "../styles/components/projectcard.css";
-// import "../styles/components/projectgallery.css";
+import "../styles/components/projectgallery.css";
 
 function Portfolio() {
   return (

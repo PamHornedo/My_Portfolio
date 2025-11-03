@@ -10,6 +10,7 @@
   margin: 0;
   padding: 0;
   background-color: var(--main-color);
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 h1 {
@@ -69,7 +70,8 @@ h3 {
   flex-direction: row;
 }
 
-p {
+p,
+ul {
   font-size: 18px;
   color: var(--accent-color-two);
 }

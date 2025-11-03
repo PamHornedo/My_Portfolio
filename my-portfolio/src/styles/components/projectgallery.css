@@ -1,14 +1,11 @@
 .project-grid {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-left: 25px;
-  margin-right: 25px;
+  gap: 2rem;
+  width: 100%;
 }
 
 .projects {
   display: flex;
   flex-direction: row;
-  gap: 25px;
-  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
