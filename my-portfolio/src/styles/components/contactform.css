@@ -1,0 +1,82 @@
+:root {
+  --main-color: #d1d0d0;
+  --text-color-one: #000000;
+  --text-color-two: #ffffff;
+  --accent-color-one: #988986;
+  --accent-color-two: #5c4e4e;
+}
+
+.contact-container {
+  width: 50%;
+  padding: 50px;
+  margin: 25px;
+  background-color: var(--accent-color-one);
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px #000000;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  background-color: var(--accent-color-one);
+}
+
+.form-group label {
+  padding-left: 10px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--text-color-one);
+  background-color: var(--accent-color-one);
+}
+
+.form-group {
+  width: 100%;
+  padding: 10px 35px 10px 10px;
+  background-color: var(--accent-color-one);
+  font-size: 14px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 7px;
+}
+
+.btn-submit {
+  background-color: var(--accent-color-two);
+  color: var(--main-color);
+  padding: 15px 30px 15px 30px;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-submit:hover {
+  background: #726363;
+  border: 1px solid var(--accent-color-two);
+}
+
+.success-banner {
+  background: #e7ffe8;
+  color: #119936;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.error {
+  background-color: var(--accent-color-one);
+  color: rgb(138, 1, 1);
+  font-size: 13px;
+  margin-top: 4px;
+}
