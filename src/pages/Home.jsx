@@ -10,7 +10,7 @@ function Home() {
           <div className="card" id="image-card">
             <img
               id="image"
-              src="/images/PamelaHornedo.png"
+              src="./images/PamelaHornedo.png"
               alt="Pamela Hornedo"
             />
           </div>
